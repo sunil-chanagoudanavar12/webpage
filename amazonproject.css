@@ -333,22 +333,25 @@
 .box{
     height:400px;
     width:23%;
-    background-color: #ffffff;
+    background-color:#ffffff;
     padding:15px 0px 15px;
     margin-top:10px;
-
 }
+
 .box-img{
     height:80%;
-    background-image:contain ;
+    background-size: cover;    
+    background-position: center; 
     background-repeat: no-repeat;
     margin-top:1rem;
     margin-bottom:1rem;
 }
+
 .box-content{
-    margin-left: 1rem;
-    margin-right: 1rem; 
+    margin-left:1rem;
+    margin-right:1rem;
 }
+
 .box1{
     height:400px;
     width:97%;
@@ -412,4 +415,12 @@ ul p{
     align-items: center;
     justify-content: center;
     color:#ffffff;
+}
+.text{
+    font-size: 10px;
+
+}
+.see-more{
+    font-size: 13px;
+    color:blue
 }
